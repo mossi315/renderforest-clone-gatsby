@@ -8,6 +8,7 @@
     "gatsby"
   ],
   "scripts": {
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "develop": "gatsby develop",
     "start": "gatsby clean && gatsby develop",
     "build": "gatsby build",
@@ -33,5 +34,8 @@
     "react-spring": "^9.7.3",
     "slugify": "^1.6.6",
     "styled-components": "^6.1.8"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }

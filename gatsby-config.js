@@ -6,6 +6,7 @@ require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 })
 module.exports = {
+  pathPrefix: "/renderforest-clone-gatsby",
   siteMetadata: {
     title: `Renderforest`,
     siteUrl: `https://www.yourdomain.tld`,
